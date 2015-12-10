@@ -1,0 +1,113 @@
+#-------------------------------
+# General Site Settings
+
+title: Island Tan 2 Go
+description: Mobile Airbrush Tanning Serving Honolulu, HI and Groton, CT
+email: karen@islandtan2go.com
+title: Welcome to Island Tan 2 Go Mobile Airbrush Tanning
+welcome: We specialize in Airbrush Tanning in Honolulu, Hawaii and Groton, Connecticut and surrounding areas. We are a mobile tanning service that can be done in the privacy of your own home or office.
+phone: 401.286.2889
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: Home, url: '#'}
+- {name: Services, url: '#services'}
+- {name: About, url: '#about'}
+- {name: FAQ, url: '#faq'}
+- {name: Contact, url: '#contact'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'We are a Mobile Airbrush Tanning service that can be done in the privacy of your own home or office. Airbrush Tanning combines the latest advances in sunless tanning solutions with state-of-the-art airbrush technology!'
+  rel-author: 'http://islandtan2go.com'
+  rel-publisher: 'http://www.islandtan2go.com'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+# google-analytics-ua: UA-53953224-1
+
+#-------------------------------
+# Services Section
+
+kudos:
+- testimony: Karin's tan lasted like crazy, looked amazing and made the entire process of getting a spray tan fun, easy and incredibly convenient. She is fast, professional and truly an artist-- I have a very "in-between" natural skin tone and she mixed exactly the right color to make me look like I had a glowing perfect tan. I got tons of compliments and when it faded, it did so evenly so I never had that awkward patchy stage. She is A-List all the way.
+  name: Kate Rigg - Executive Producer Oxygen Networks and Comedy Correspondent for Dr. Phil
+- testimony: I play Arlene Fowler on HBO's hit show "True Blood". I have to be tan for the show, but I don't want to be in the sun. Karin's spray tan is far superior to any of the sunless products or spray tan machines I've used before. It really looks natural, and the makeup artists were thrilled when I came into work with her tan on my body. They loved the color and the way it held up at work. I will definitely come back for more!
+  name: Carrie Preston
+- testimony: I work in the news business and can't tell you how critical I can be when it comes to any beauty product or routine. So when I made an appointment for a spray tan with Karin I didn't get my hopes up. After rearranging her schedule for me several times, Karin came to my home, set up her portable booth and a few minutes later I had a gorgeous natural looking tan. My friends, who have nicknamed me "paleness" because of my fair skin, can't get over how pretty it looks. Can't wait to see Karin again soon...I know she'll make me more beautiful for my upcoming wedding day.
+  name: Dianne Derby
+- testimony: We planned a quaint and friendly gathering of about 40 people in Carmel, Ca. It was quite an overwhelming concept to plan such a wedding and reception from across the country in Jacksonville, Florida! We found IslandTan2Go.com online (with some others that we quickly eliminated). Your website was very informative and the pictures helped us so much being cross country.  We loved that the concept of getting beautifully airbrushed tanned for the wedding would happen at the home we were staying at in Carmel, CA. We didn't know our way around, and we didn't have the time to tan 3 of us at a Salon.  Karin was very friendly and professional. She was very helpful and fun in the precarious positions we found ourselves in during the drying process. Karin was also very confidential.  Thanks to Karin and IslandTan2Go.com on the West Coast!!
+  name: Cindy Chisholm L'Herault (the Bride) & Robin Lawson (Wedding Planner)
+- testimony: I was planning a wedding in Hawaii, and I live in Louisiana. I had heard from a friend how amazing air brush tanning was rather than mystic tan, so I googled air brush tanning on Oahu, and I found a couple salons, but they were ridiculously over-priced, and almost impossible to get an appointment. I was due to arrive in Oahu on Thursday, and started emailing places on Oahu that Monday, and I happen to find Karin's site, and saw her fantastic prices AND that she travels to your home. I emailed her, and got a response that same day, and she set up an appointment for me on the day and time that was best for me. She was very professional; came to my mother's house with all her supplies, and air brushed me in the comfort of my own home. Then gave me great advice and supplies on how to keep my tan looking great for my wedding day. The tan looked amazing, and very natural, and I looked great on my wedding day. I followed her exact directions, and never looked orange or streaky, and everyone thought my tan was real. She did a great job, and was SO convenient-I would HIGHLY recommend her to anyone looking for a great tan with great service.
+  name: Stephanie J.
+- testimony: This was my first time doing an airbrush tan. I wanted to try because I'm extremely white but don't have the time to frequent the beach. This spray tan was AMAZING!! The process was simple and the results were so good!! I WAS REALLY TAN!! Thank you, Karin!!
+  name: Maya R.
+- testimony: I can honestly say that your blend of tanning solution solidified my firs4 place win in the Team Hawaii Bodybuilding and Figure Competition! This airbrush tan enhanced all the hardwork, dedication, and training that i put into competing. It really brought out the confidence in me and the definition in my body! I loved it! Your airbrush tanning will always be at the top of my list when it comes to showtime. Thank you so much Karin!
+  name: Jamie H. - 2008 Competitor of Team Hawaii Bodybuilding Championship ( First Place) and The Paradise Cup.
+- testimony: Hi Karin! I have to say this, I decided to try the standard ProTan coloring for the Paradise Cup because I felt like the spray tan left me too "red." However, after reviewing pictures from Team Hawaii and the Cup, your spray tan was hands-down the better coloring and the ease of application made it ten times better than the multiple coats of ProTan. I think I would have better appreciated the spray if I had done it the night before as was recommended. In my future comps, I will definitely be looking for you to do my coloring!
+  name: Tim G.- 2008 Competitor of Team Hawaii Bodybuilding Championship and The Paradise Cup
+- testimony: I highly recommend Karin to anyone looking for a tan. She is thorough, complete, and very professional. The tan is very consist ent, the color is excellent, and I never came out looking orange! As a model, I use only Karin. She is THE best on the Island.
+  name: Ray H.
+- testimony: Thank you for coming over to my home and making it so convenient for me to get a perfect tan in preparation for The Paradise Cup! My skin never looked so evenly tanned and glowing! I look forward to working with you again soon on my next competition in April! Thanks again Karin!
+  name: Leilani J. - 2008 Competitor of Team Hawaii Bodybuilding Championship and The Paradise Cup
+- testimony: I've done several physique competitions and have always dreaded painting on my tan. It would take several times and with having 2 kids it could get messy. My tans never seemed to be as dark as the other competitors on stage. When I did my last competition, I found out about Island Tans 2 Go and contacted her immediately. When I saw that I only had to be spray painted once for the competition I made an appointment. It was a perfect all over even tan and was as dark or darker than anyone else there! Karin went out of her way to make everything perfect for me. Thanks Karin!
+  name: Megan C. - 2008 Competitor of The Paradise Cup and Owner of Extreme Beach Boot Camp in Honolulu
+- testimony: I didn't want to waste time sitting in the sun to get a tan, instead I called Karin over at islandtan2go.com to get a easy, fast and convenient tan. Now I look great!
+  name: Taylor R.
+
+
+#-------------------------------
+# About Section
+
+# NOTE: This blurb is in markdown so those rules apply.
+
+blurb: >
+  Island Tan 2 Go Mobile Airbrush Tanning was created by Karin in Honolulu, Hawaii in 2008. It was the first mobile airbrush tanning business on the island. We work with you in the privacty of your own home and our goal is for you to be comfortable and look natural and fabulous.
+
+social:
+- {icon: 'facebook', link: 'https://www.facebook.com'}
+- {icon: 'twitter', link: 'http://twitter.com'}
+- {icon: 'instagram', link: 'http://instagram.com'}
+- {icon: 'mail', link: '#'}
+
+#------------------------------
+# FAQ Section
+
+faq:
+- question: Is Airbrush Tanning safe?
+  answer: Yes it is! The FDA approved Dihydroxyacetone (DHA), a sugar cane derivative that results in the tan, for safety in 1973. When applied to the skin, DHA only penetrates the top layer of the skin and does not absorb into the body or the bloodstream. How does DHA work? Dihydroxyacentone (DHA) interacts with the dead surface cells in the outermost layer of the skin to darken the skin color. The tan fades as the dead surface cells shed or exfoliate.
+
+- question: Why Airbrush Tanning?
+  answer: Airbrush Tanning does not involve any UV rays, allowing people to tan more often without worrying about overexposure. Unlike tanning beds and sunlight, there are no long-term ultra-violet carcinogenic dangers with Airbrush Tanning. This healthy tan goes beautifully over an existing tan and can even out or eliminate any tan lines. For the un-tanned and fair of skin, our premium quality Airbrush products will fool your friends into thinking you've become a sun goddess overnight!
+
+- question: How long does an Airbrush Tan last?
+  answer: An Airbrushed Tan will typically last 5-7 days, depending on your skin type and how well you care for it following your tanning session. Airbrush Tanning produces color on the outermost layer of the skin, which is then discarded cell-by-cell. If you wear your skin hard, take long hot baths or showers, wear clothes that chafe, or do anything to encourage the skin to "shed," so will your tan. You can extend the life of your tan by using a Maintainer lotion at least once daily, but just like a natural suntan, the Airbrush Tanning results are temporary.
+
+- question: How do I prepare for my Airbrush Tan?
+  answer: Shower and exfoliate preferably one hour before your airbrush tan as it is important to have clean, dry skin. For best results, exfoliate with mesh gloves or a wash cloth in order to remove dead skin cells. This will provide an even coverage and will help to lengthen the duration of your tan. It is also a good idea to shave 8-12 hours before your Airbrush Tan. Do not wear moisturizers, sunscreen, perfume, make up, deodorant or anything on your skin as it can act as a barrier to the tanning solution. Will my final tan be the same color as the initial "Bronze" color I see sprayed onto my skin? Most likely No.  The initial "Bronze" color is simply so you can see where the tanner is being applied.  This "bronze" color will wash off once you bathe.  The resulting skin color will be from the DHA reaction and be dependent on skin type and amount of tanner initially applied to the skin.
+
+- question: What should I wear?
+  answer: Loose fitting dark clothing is recommended to wear to your appointment and for the remaining of the day. For women we suggest you wear a dark colored bikini, a dark bra, panties or thong. We do have disposable thongs and panties if needed. Men should wear dark colored shorts, boxers or briefs. If you do not want any tan lines we do offer professional topless or completely nude tanning. Do not wear denim, tight pants, and tight fitting undergarments such as underwire bras or sports bras of any kind directly following your Airbrush Tanning session. These garments are made to fit snug and could cause tan lines where there weren't any before. Tennis shoes are too snug and will erase your tan before it has a chance to develop. Non-leather flip-flops or slippers are recommended or loose clog style shoes are optimal for colder weather.
+
+- question: Is it OK for people of any age to get Airbrush Tanning?
+  answer: If you are 18 or younger, a parent must accompany you to your tanning session as well as agree to sign a consent form. Shorts must be worn for boys and a bathing suit must be worn for girls.
+
+- question: Can I still get Airbrush Tanning if I am pregnant?
+  answer: I do not spray pregnant women.
+
+- question: Will your solution stain my clothes?
+  answer: The initial "bronze" color of the tanner should wash off most clothing. The solution is known to stain nylon, rayon, leather and wool so plan accordingly when you prepare.
+
+- question: Can I workout after I get my tan?
+  answer: It is not recommended that you work out, sweat, shower or swim until at least 8 hours after your tanning session. Do not apply any lotions or moisturizers as well while your tan is developing during this 8 hour period.
