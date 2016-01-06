@@ -1,11 +1,18 @@
 .footer
-  background-color: #82CAD8
   text-align: center
+  color: black
   font-size: 1.2rem
   padding: 4rem
+  background-color: #82CAD8
+  //background-image: linear-gradient(rgba(100,100,100,0.55), rgba(50,50,50,0.55)), url(/assets/img/bodybw-bg.jpg)
+  background-image: linear-gradient(rgba(216, 191, 216,0.4), rgba(196,171,196,0.6)), url(/assets/img/bodybw-bg.jpg)
+  background-repeat: no-repeat
+  background-position: center center
+  background-size: cover
+  background-attachment: fixed
   p
     &.slogan
-      font-size: 1.8rem
+      font-size: 3rem
       margin: 0 0 1rem
     &.copywrite
       font-size: 0.875rem
@@ -13,13 +20,16 @@
   .links a
     list-style: none
     font-weight: bold
-    color: #FF00FF
-    padding: 3rem 0 2rem
+    color: black
+    text-transform: capitalize
+    //color: #FF00FF
+    adding: 3rem 0 2rem
     margin: 0
     &:hover
-      color: #FF00AA
+      color: white
     &::after
       content: "•"
+      color: black
       padding: 0 0.4rem 0 0.8rem
     &:last-child::after
       content: ""
