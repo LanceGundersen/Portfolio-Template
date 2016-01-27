@@ -4,7 +4,6 @@
   font-size: 1.2rem
   padding: 4rem
   background-color: #82CAD8
-  //background-image: linear-gradient(rgba(100,100,100,0.55), rgba(50,50,50,0.55)), url(/assets/img/bodybw-bg.jpg)
   background-image: linear-gradient(rgba(216, 191, 216,0.4), rgba(196,171,196,0.6)), url(/assets/img/bodybw-bg.jpg)
   background-repeat: no-repeat
   background-position: center center
@@ -34,3 +33,19 @@
     &:last-child::after
       content: ""
       padding: 0 0.4rem 0 0.8rem
+
+@include breakpoint(small only)
+  .footer
+    padding: 0
+    margin: 0
+    font-size: 1rem
+    p
+      &.slogan
+        font-size: 2rem
+        width: 100%
+        margin: 0
+        padding: 0
+    .links a
+      margin: 3px
+      &::after
+        display: none
