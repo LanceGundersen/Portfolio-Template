@@ -1,5 +1,9 @@
 $(document).foundation();
 
+// //navigation off-canvas temp-fix
+// $('.js-off-canvas-exit').hide();
+
+//Slide Show
 $( '#slider' ).sliderPro({
 	width: '100%',
 	height: 600,
@@ -12,5 +16,6 @@ $( '#slider' ).sliderPro({
 	thumbnailArrows: true,
 	thumbnailHeight: 90,
 	imageScaleMode: 'contain',
-	autoplay: true
+	autoplay: true,
+	lazyLoad : true
 });

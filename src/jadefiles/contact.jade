@@ -7,7 +7,7 @@ section#contact
         h4 Contact Form
         p Please send me a message if you have any questions, comments or feedback. I always look forward to meeting others and enjoy feedback! - CG
         .small-12.columns
-        form(name="contact-form", method="post")
+        form(name="contact-form", method="post" action="//formspree.io/cg@makeupbycg.com")
             div.input
                 input(type="text", name="Name", placeholder="Name" required)
             div.input
@@ -19,21 +19,21 @@ section#contact
             div.input
                 textarea(name="Message", placeholder="Send your love!", cols="40", rows="5" required)
             div.actions.float-right
-                input(type="submit", value="Submit")
+                input(type="submit", value="Send")
       .small-12.medium-3.columns.contact-sidebar
         h4 Contact Information
         p Telephone 207-671-9918
         p Email cg@makeupbycg.com
         .social-wrapper-contact
-          a(href='https://www.facebook.com/MakeupbyCG', title='Facebook')
+          a(href='https://www.facebook.com/MakeupbyCG', title='Facebook' target="_blank")
             .facebook-team-contact
               i.fi-social-facebook
-          a(href='https://twitter.com/makeupbycg', title='Twitter')
+          a(href='https://twitter.com/makeupbycg', title='Twitter' target="_blank")
             .twitter-team-contact
               i.fi-social-twitter
-          a(href='http://www.instagram.com/makeupbychristengundersen/', title='Instagram')
+          a(href='http://www.instagram.com/makeupbychristengundersen/', title='Instagram' target="_blank")
             .instagram-team-contact
               i.fi-social-instagram
-          a(href='#', title='LinkedIn')
+          a(href='https://www.linkedin.com/in/christen-gundersen-3007a463', title='LinkedIn' target="_blank")
             .linkedin-team-contact
               i.fi-social-linkedin

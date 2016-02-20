@@ -11,30 +11,48 @@
     <link rel='stylesheet' href='http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css'>
   </head>
   <body>
-    <div class="title-bar" data-responsive-toggle="menu" data-hide-for="medium">
-      <button class="menu-icon" type="button" data-toggle></button>
-      <div class="title-bar-title">Menu</div>
-    </div>
-    <div class="top-bar" id="menu">
-      <div class="top-bar-left">
-        <ul class="menu">
-          <li class="menu-text">Makeup By CG</li>
-        </ul>
-      </div>
-      <div class="top-bar-right">
-        <ul class="dropdown menu" data-dropdown-menu>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
 
-    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
-    {{> body}}
 
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+
+          <div class="title-bar" data-responsive-toggle="widemenu" data-hide-for="medium">
+            <div class="title-bar-right">
+              <span class="title-bar-title">MENU</span>
+              <button class="menu-icon" type="button" data-open="offCanvasRight"></button>
+            </div>
+          </div>
+          <!-- off-canvas right menu -->
+          <div class="off-canvas position-right" id="offCanvasRight" data-off-canvas data-position="right">
+            <ul class="vertical dropdown menu" data-dropdown-menu>
+              <li><a href="#about">About</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="blog">Blog</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <!-- "wider" top-bar menu for 'medium' and up -->
+          <div id="widemenu" class="top-bar">
+            <div class="top-bar-left">
+              <ul class="menu">
+                  <li><a href="index.html">MAKEUP BY CG</a></li>
+              </ul>
+            </div>
+            <div class="top-bar-right">
+              <ul class="dropdown menu" data-dropdown-menu>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="off-canvas-content" data-off-canvas-content>
+            {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+            {{> body}}
+          </div>
+      </div>
+    </div>
     <script src="{{root}}assets/js/app.js"></script>
   </body>
 </html>

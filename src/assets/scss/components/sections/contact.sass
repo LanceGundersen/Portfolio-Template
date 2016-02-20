@@ -61,11 +61,32 @@
   &:hover
     color: thistle
 
+@include breakpoint(medium only)
+  .contact-form
+    margin: 0
+    border-radius: 10px 10px 0 0
+    text-align: center
+  .actions
+    width: 100%
+  .contact-sidebar
+    border-radius: 0 0 10px 10px
+    text-align: center
+    h4
+      text-transform: uppercase
+    p
+      margin: 0
+
 @include breakpoint(small only)
   .contact-form
     margin: 0
     border-radius: 10px 10px 0 0
     text-align: center
+  .actions
+    width: 100%
   .contact-sidebar
     border-radius: 0 0 10px 10px
     text-align: center
+    h4
+      text-transform: uppercase
+    p
+      margin: 0
